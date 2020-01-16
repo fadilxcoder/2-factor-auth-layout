@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html, body{
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    width: 400px;
+    margin: 0 auto;
+}
+main h1{
+    text-align: center;
+    font-size: 40px;
+}
+main form{
+    padding: 0px 15px;
+}
+main form label{
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 17px;
+    color: #787b7d;
+}
+main form input{
+    width: 75px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px dashed #0d0e0e;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    letter-spacing: 5px;
+}
+main form button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 15px 25px;
+    color: black;
+    background: grey;
+    font-size: 24px;
+    border: none;
+}
+
+
+@media (max-width: 319px) {
+    body{
+        display: none;
+    }
+    html::after{
+        content: 'Low screen resolution';
+        position: fixed;
+        top: 50px;
+        right: 5px;
+        left: 5px;
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
