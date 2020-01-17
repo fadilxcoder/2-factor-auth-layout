@@ -42,6 +42,14 @@ main form button{
     background: grey;
     font-size: 24px;
     border: none;
+    outline: none;
+}
+
+#show-token{
+    font-size: 50px;
+    margin: 10px 0px;
+    text-align: center;
+    letter-spacing: 20px;
 }
 
 

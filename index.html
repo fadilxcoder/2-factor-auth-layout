@@ -16,11 +16,12 @@
         <body>
             <main>
                 <h1>TWO FACTOR AUTHENTICATION</h1>
-                <form action="" method="POST">
+                <form action="" method="POST" id="form-token">
                     <label for="token">Please enter the code you were sent:</label>
                     <input type="text" name="token" id="token" inputmode="tel" pattern="[0-9]*" autocomplete="one-time-code" maxlength="6"/>
                     <button type="submit" id="submit" name="submit">Check Token</button>
                 </form>
+                <h4 id="show-token"></h4>
             </main>
         </body>
         <script src="script.js"></script>
