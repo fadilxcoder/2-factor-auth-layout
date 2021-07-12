@@ -51,6 +51,7 @@ function notify(data)
                     body    : 'Your 6 digits are : '+data,
                     vibrate : 300,
                 });
+                window.navigator.vibrate([700, 0, 500, 0, 100]);
             });
         }
     });
